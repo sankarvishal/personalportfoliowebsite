@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FormFriend — UI/UX Case Study | Sankar Vishal S</title>
+  <meta name="description" content="FormFriend UI/UX Case Study by Sankar Vishal S. Making complex official forms easier to understand, complete, and submit through field-by-field guidance.">
+  <meta name="author" content="Sankar Vishal S">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="FormFriend — UI/UX Case Study | Sankar Vishal S">
+  <meta property="og:description" content="Making complex forms easier to understand, complete, and submit.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="../index.html#top" class="brand">
+        <span class="brand-dot"></span>
+        Sankar Vishal S
+      </a>
+      <nav class="links" aria-label="Breadcrumb Navigation">
+        <a href="../index.html#work">&larr; Back to Projects</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="fixnear.html">Next: FixNear &rarr;</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="../index.html#contact" class="btn btn-primary nav-cta-desktop">Let's Talk</a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="../index.html#top">Home</a>
+      <a href="../index.html#work">&larr; Back to Projects</a>
+      <a href="fixnear.html">Next: FixNear Case Study &rarr;</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <article class="case-hero">
+      <div class="wrap">
+        <a href="../index.html#work" class="case-back-link">&larr; Back to Projects</a>
+        <div style="display:flex; gap:10px; align-items:center;">
+          <span class="eyebrow">Case Study 01</span>
+          <span class="mono-meta">&bull; Mobile App (390&times;844)</span>
+        </div>
+        <h1 class="case-title" style="margin-top:14px;">FormFriend</h1>
+        <p class="case-hero-tagline">Making complex forms easier to understand, complete, and submit.</p>
+
+        <div class="case-hero-tags">
+          <span class="chip">UX/UI Case Study</span>
+          <span class="chip">Figma Mobile Design</span>
+          <span class="chip">Accessibility First</span>
+          <span class="chip">Interactive Prototype</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- METADATA GRID -->
+    <div class="wrap">
+      <div class="case-meta-grid">
+        <div>
+          <div class="mono-meta">ROLE</div>
+          <div style="font-weight:600; margin-top:4px;">UI/UX Designer</div>
+        </div>
+        <div>
+          <div class="mono-meta">PLATFORM</div>
+          <div style="font-weight:600; margin-top:4px;">Mobile App (390&times;844)</div>
+        </div>
+        <div>
+          <div class="mono-meta">TOOL</div>
+          <div style="font-weight:600; margin-top:4px;">Figma</div>
+        </div>
+        <div>
+          <div class="mono-meta">SCOPE</div>
+          <div style="font-weight:600; margin-top:4px;">Concept &amp; Prototype</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 01. OVERVIEW -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">01 / Overview</span>
+        <h2>Product Overview</h2>
+        <p>
+          FormFriend is an accessibility-centered mobile app concept designed to transform intimidating, bureaucratic paperwork into an encouraging, step-by-step digital companion. Instead of confronting users with endless columns of legal jargon, FormFriend scans physical paper forms, explains each required field in plain language, offers bilingual voice guidance, and verifies required documentation before submission.
+        </p>
+      </div>
+    </section>
+
+    <!-- 02. PROBLEM -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">02 / Problem</span>
+        <h2>The Core Problem</h2>
+        <p>
+          Millions of citizens struggle when filling out official forms at government offices, hospitals, revenue departments, banks, and academic institutions. The existing process triggers anxiety, repeated rejections, and unnecessary trips because of:
+        </p>
+        <ul>
+          <li><strong>Opaque Terminology:</strong> Confusing administrative terms like "Gross Annual Family Income," "Domicile Proof," or "Attested Gazetted Copy."</li>
+          <li><strong>Language Barriers:</strong> Forms often printed only in English or high-formal regional vocabulary that everyday citizens find difficult to parse.</li>
+          <li><strong>Surprise Document Shortages:</strong> Applicants wait hours in queues only to learn at the submission window that a specific supplementary certificate is missing.</li>
+          <li><strong>Loss of Independence:</strong> People are forced to rely on touts, agents, or hurried desk staff, risking privacy and making simple applications stressful.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 03. GOAL -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">03 / Goal</span>
+        <h2>Design Goals &amp; Guiding Tenets</h2>
+        <p>
+          The objective was to re-architect form filling into a calm, self-guided experience built on five principles:
+        </p>
+        <div class="two-col-cards">
+          <div class="feature-box">
+            <h4>1. Guided &amp; Digestible</h4>
+            <p>Break multi-page documents into one focused question at a time so users never feel overwhelmed.</p>
+          </div>
+          <div class="feature-box">
+            <h4>2. Plain Language Explanation</h4>
+            <p>Provide contextual, everyday examples for every field before asking the user to type.</p>
+          </div>
+          <div class="feature-box">
+            <h4>3. Bilingual &amp; Multimodal</h4>
+            <p>Offer an effortless Tamil &harr; English toggle and audio voice-over for audio-assisted completion.</p>
+          </div>
+          <div class="feature-box">
+            <h4>4. Pre-Submission Confidence</h4>
+            <p>Verify required physical documents with a checklist before allowing the user to mark a form ready.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. TARGET USERS -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">04 / Target Users</span>
+        <h2>Who FormFriend is Designed For</h2>
+        <p>
+          Designing for vulnerable or anxious users required focusing on realistic archetypes:
+        </p>
+        <ul>
+          <li><strong>First-time Applicants:</strong> Young adults and students applying for college scholarships, driving permits, or exam registrations who have never handled official documentation.</li>
+          <li><strong>Non-Native English Speakers:</strong> Individuals who speak and read Tamil comfortably but feel intimidated by formal legal English.</li>
+          <li><strong>Senior Citizens:</strong> Older adults applying for medical subsidies or pension papers who struggle with fine print and multi-page forms.</li>
+          <li><strong>Working Parents:</strong> Busy guardians completing school admissions or healthcare claims during limited free hours without wanting to repeat office trips.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 05. RESEARCH & 06. PAIN POINTS -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">05 &middot; 06 / Qualitative Research</span>
+        <h2>Research Insights &amp; Key Pain Points</h2>
+        <p>
+          To understand real friction points, I analyzed standard physical application forms from local municipal and educational services. I walked through the forms as a first-time filer, noting down every ambiguity and friction spike.
+        </p>
+        <div class="two-col-cards">
+          <div class="feature-box">
+            <h4>Key Friction: The Explanation Gap</h4>
+            <p>Traditional forms ask for data without explaining where the citizen can look to find it. For example, "Annual Income" creates confusion regarding whether agricultural earnings or house rent should be included.</p>
+          </div>
+          <div class="feature-box">
+            <h4>Key Friction: The Missing Paper Penalty</h4>
+            <p>Most form abandonment happens not during writing, but after submission when an official turns the applicant away because an annexure was forgotten.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07. USER FLOW -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">07 / User Flow</span>
+        <h2>Primary &amp; Secondary User Flows</h2>
+        <p>
+          The core interaction follows an intentional 6-step loop: <strong>Scan &rarr; Understand &rarr; Complete &rarr; Check Documents &rarr; Review &rarr; Submit</strong>.
+        </p>
+        <div class="flow-strip" style="margin-top:20px;">
+          <span class="flow-step">Splash</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Welcome</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Language Selection</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Home</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Scan Form</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Form Preview</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Field Explanation</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Form Progress</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Document Checklist</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Review</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Form Submitted</span><span class="flow-sep">&rarr;</span>
+          <span class="flow-step">Home</span>
+        </div>
+        <p style="margin-top:14px; font-size:14px; color:var(--ink-muted);">
+          Secondary accessible pathways: <em>Saved Forms</em> (resuming in-progress drafts) and <em>Help &amp; Support</em>.
+        </p>
+      </div>
+    </section>
+
+    <!-- 08. INFORMATION ARCHITECTURE -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">08 / Information Architecture</span>
+        <h2>Information Architecture (IA)</h2>
+        <p>
+          FormFriend structures complex inputs into clean, isolated modules to minimize visual clutter on mobile screens:
+        </p>
+        <div class="ia-card-grid">
+          <div class="ia-card">
+            <h4>1. Capture &amp; Onboarding</h4>
+            <ul>
+              <li>Splash &amp; Language Toggle (Tamil / English)</li>
+              <li>Camera Scanner Viewfinder</li>
+              <li>Form Boundary Detection</li>
+              <li>Detected Document Overview</li>
+            </ul>
+          </div>
+          <div class="ia-card">
+            <h4>2. Guided Fill Engine</h4>
+            <ul>
+              <li>Field Title &amp; Official Code</li>
+              <li>Plain-Language Explanation Card</li>
+              <li>Audio Pronunciation &amp; Read-Aloud</li>
+              <li>Focused Single Input Area</li>
+            </ul>
+          </div>
+          <div class="ia-card">
+            <h4>3. Verification &amp; Submit</h4>
+            <ul>
+              <li>"Before You Go" Document Checklist</li>
+              <li>Progress Status Bar</li>
+              <li>Consolidated Review Screen</li>
+              <li>Submission Confirmation &amp; Save</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09. WIREFRAMES -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">09 / Wireframes</span>
+        <h2>Low-Fidelity Wireframe Exploration</h2>
+        <p>
+          Early wireframing in Figma established three fundamental spatial rules:
+        </p>
+        <ul>
+          <li><strong>One Field Per Screen:</strong> Rather than mimicking paper with crowded multi-row layouts, each screen isolates one field with its explanation card directly above the input.</li>
+          <li><strong>Persistent Audio Anchor:</strong> The voice guide icon remains accessible in the top-right corner without obscuring the form fields.</li>
+          <li><strong>Fixed Sticky Action Bar:</strong> "Next" and "Previous" buttons sit comfortably within the thumb zone at the bottom of the 390&times;844 canvas.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 10. DESIGN SYSTEM -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">10 / Design System</span>
+        <h2>FormFriend Design System</h2>
+        <p>
+          A restrained, calming palette chosen to reduce anxiety and convey public-service reliability.
+        </p>
+        <div class="ds-colors" style="margin-top:20px;">
+          <div class="ds-color" style="background:#2563EB; color:#fff;"><span class="lbl">Primary Blue</span><span class="hex">#2563EB</span></div>
+          <div class="ds-color" style="background:#1D4ED8; color:#fff;"><span class="lbl">Dark Blue</span><span class="hex">#1D4ED8</span></div>
+          <div class="ds-color" style="background:#0F172A; color:#fff;"><span class="lbl">Heading Slate</span><span class="hex">#0F172A</span></div>
+          <div class="ds-color" style="background:#F8FAFC; color:#0F172A; border-color:#E2E8F0;"><span class="lbl">Canvas Bg</span><span class="hex">#F8FAFC</span></div>
+          <div class="ds-color" style="background:#DBEAFE; color:#1D4ED8;"><span class="lbl">Surface Accent</span><span class="hex">#DBEAFE</span></div>
+          <div class="ds-color" style="background:#EFF6FF; color:#1E40AF;"><span class="lbl">Light Blue Tint</span><span class="hex">#EFF6FF</span></div>
+        </div>
+        <p style="margin-top:16px;">
+          <strong>Typography:</strong> Inter (400, 500, 600, 700) with generous x-height and clear numeral distinctions for easy reading on mobile screens.
+        </p>
+      </div>
+    </section>
+
+    <!-- 11. HIGH-FIDELITY UI -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">11 / High-Fidelity UI</span>
+        <h2>Designed Screens &amp; Visual Showcase</h2>
+        <p>
+          Below are the 5 high-fidelity screens designed for the mobile experience. Click any screen to inspect details in the high-resolution lightbox.
+        </p>
+
+        <div class="gallery-wrapper" style="margin-top:28px;">
+          <div class="gallery-scroll" role="region" aria-label="FormFriend Detailed Gallery">
+            <figure data-lightbox="formfriend">
+              <img src="../assets/images/formfriend-splash.png" alt="FormFriend splash screen with logo and tagline" width="390" height="844">
+              <figcaption>01 &middot; Splash Screen<small>App identity, brand motto, and smooth dissolve trigger</small></figcaption>
+            </figure>
+            <figure data-lightbox="formfriend">
+              <img src="../assets/images/formfriend-scan.png" alt="FormFriend scan form screen with camera viewfinder frame" width="390" height="844">
+              <figcaption>02 &middot; Scan Form<small>OCR viewfinder guide with document boundary guides</small></figcaption>
+            </figure>
+            <figure data-lightbox="formfriend">
+              <img src="../assets/images/formfriend-field-explanation.png" alt="FormFriend field explanation screen explaining Annual Income simply" width="390" height="844">
+              <figcaption>03 &middot; Field Explanation (USP)<small>Contextual explanation card for Annual Income + voice button</small></figcaption>
+            </figure>
+            <figure data-lightbox="formfriend">
+              <img src="../assets/images/formfriend-checklist.png" alt="FormFriend document checklist screen titled Before You Go" width="390" height="844">
+              <figcaption>04 &middot; Document Checklist<small>&quot;Before You Go&quot; required certificates checklist</small></figcaption>
+            </figure>
+            <figure data-lightbox="formfriend">
+              <img src="../assets/images/formfriend-review.png" alt="FormFriend review before submit screen with verify card" width="390" height="844">
+              <figcaption>05 &middot; Review Screen<small>Pre-submission summary to confirm all entries are accurate</small></figcaption>
+            </figure>
+          </div>
+
+          <div class="secondary-screens" style="margin-top:24px;">
+            <span class="secondary-screens-label">Flow Architecture Screens:</span>
+            <span class="screen-pill">Welcome</span>
+            <span class="screen-pill">Language Selection</span>
+            <span class="screen-pill">Home</span>
+            <span class="screen-pill">Form Preview</span>
+            <span class="screen-pill">Form Progress</span>
+            <span class="screen-pill">Saved Forms</span>
+            <span class="screen-pill">Help &amp; Support</span>
+            <span class="screen-pill">Form Submitted</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. ACCESSIBILITY -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">12 / Accessibility</span>
+        <h2>Accessibility Considerations (6 Dimensions)</h2>
+        <div class="two-col-cards">
+          <div class="feature-box">
+            <h4>1. Language Accessibility</h4>
+            <p>Direct Tamil and English toggle accessible from the top bar at every step without losing user progress.</p>
+          </div>
+          <div class="feature-box">
+            <h4>2. Cognitive Accessibility</h4>
+            <p>Single-concept screens prevent cognitive overload. Questions are written in conversational tone rather than legal syntax.</p>
+          </div>
+          <div class="feature-box">
+            <h4>3. Visual Accessibility</h4>
+            <p>WCAG AAA compliant contrast between text (#0F172A) and background (#F8FAFC), 16px base body size, and zero color-only cues.</p>
+          </div>
+          <div class="feature-box">
+            <h4>4. Interaction Accessibility</h4>
+            <p>All touch targets meet or exceed 48&times;48px. Form inputs use large tap targets and clear focus rings.</p>
+          </div>
+          <div class="feature-box">
+            <h4>5. Audio Accessibility</h4>
+            <p>Integrated voice narration button on every field explanation card for low-literacy or visually impaired filers.</p>
+          </div>
+          <div class="feature-box">
+            <h4>6. Task Progression Support</h4>
+            <p>Persistent step counter (e.g., "Step 2 of 5") and document checklists make remaining effort completely predictable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13. PROTOTYPE DETAILS -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">13 / Prototype</span>
+        <h2>Interactive Prototype Structure</h2>
+        <p>
+          Configured in Figma to simulate genuine mobile application feel:
+        </p>
+        <ul>
+          <li><strong>Splash Screen:</strong> <em>After Delay</em> transition (1500ms Dissolve) to Welcome screen.</li>
+          <li><strong>Flow Navigation:</strong> <em>On Click</em> &rarr; <em>Navigate To</em> connected with <em>Smart Animate</em> (300ms ease-out) for organic lateral slide transitions.</li>
+          <li><strong>Explanation Bottom Sheets:</strong> <em>Open Overlay</em> with backdrop dimming (40% opacity) and touch-outside dismissal.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 14. USABILITY TESTING -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">14 / Usability Testing</span>
+        <h2>Qualitative Usability Walkthrough</h2>
+        <p>
+          I conducted cognitive walkthrough tests with peers using the Figma prototype, asking participants to complete a sample income declaration form.
+        </p>
+        <div class="two-col-cards">
+          <div class="feature-box">
+            <h4>What Worked Well</h4>
+            <p>Participants immediately understood the plain-language explanation for "Annual Income" and expressed relief at having an explicit document checklist before reaching the submission stage.</p>
+          </div>
+          <div class="feature-box">
+            <h4>What Needed Refinement</h4>
+            <p>Initially, users tapped "Next" without realizing voice guidance was available. I adjusted the audio button affordance with an explicit "Listen" text label alongside the icon.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15. CHALLENGES & 16. SOLUTIONS -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">15 &middot; 16 / Challenges &amp; Solutions</span>
+        <h2>Design Challenges &amp; Iterative Solutions</h2>
+        <div class="two-col-cards">
+          <div class="feature-box">
+            <h4>Challenge: Visual Overload on Mobile</h4>
+            <p>Showing legal definitions, user inputs, camera instructions, and document warnings on a 390&times;844 screen felt crowded.</p>
+            <p style="margin-top:10px; color:var(--accent);"><strong>Solution:</strong> Separated the explanation into a dedicated context card that precedes the input, keeping the active field clean and distraction-free.</p>
+          </div>
+          <div class="feature-box">
+            <h4>Challenge: Preserving User Confidence</h4>
+            <p>Users fear making an irreversible mistake on official paperwork.</p>
+            <p style="margin-top:10px; color:var(--accent);"><strong>Solution:</strong> Added a mandatory "Review Before Submit" screen with easy inline edit triggers, giving filers complete peace of mind.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 17. LIMITATIONS -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">17 / Limitations</span>
+        <h2>Project Limitations — Stated Honestly</h2>
+        <div class="limitations-box">
+          <h5>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            Concept Disclosure
+          </h5>
+          <p>
+            FormFriend is a Figma UI/UX concept and prototype. It has no live computer vision/OCR backend, no cloud database, and no official integration with government or institutional portals. All forms, camera overlays, and user entries are prototype mockups designed to evaluate user experience flows, clarity, and accessibility.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 18. OUTCOME, 19. LEARNINGS & 20. NEXT STEPS -->
+    <section class="case-section">
+      <div class="wrap">
+        <span class="eyebrow">18 &middot; 19 &middot; 20 / Retrospective</span>
+        <h2>Outcome, Learnings &amp; Future Vision</h2>
+        
+        <h3>Qualitative Outcome</h3>
+        <p>
+          The project successfully proved that complex administrative forms can be simplified into human, stress-free micro-steps. The field-by-field explanation model eliminates ambiguity, while the document checklist transforms an intimidating office chore into an organized routine.
+        </p>
+
+        <h3>Key Learnings</h3>
+        <p>
+          As an aspiring product designer, FormFriend taught me that accessibility cannot be an afterthought. High contrast, bilingual copy, and audio assistance must be architected from day one. I also learned how valuable concise UX microcopy is when designing for users under stress.
+        </p>
+
+        <h3>Next Steps &amp; Future Work (Concept Only)</h3>
+        <ul>
+          <li>Explore integration with on-device OCR machine learning models for instant offline form boundary detection.</li>
+          <li>Expand the language pack beyond Tamil and English to include additional regional languages (Hindi, Telugu, Kannada).</li>
+          <li>Design an offline-first draft mode so filers with spotty mobile connections never lose progress.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Bottom Case Navigation -->
+    <div class="wrap">
+      <nav class="case-nav-bottom" aria-label="Case Study Navigation">
+        <a href="../index.html#work" class="btn btn-outline">&larr; Back to Selected Work</a>
+        <a href="fixnear.html" class="btn btn-primary">Next Project: FixNear &rarr;</a>
+      </nav>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <div class="brand">Sankar Vishal S</div>
+          <p style="color:var(--ink-soft); font-size:14px; margin-top:8px;">UI/UX Designer &amp; Frontend Developer</p>
+        </div>
+        <div class="footer-links">
+          <a href="../index.html#top">Home</a>
+          <a href="../index.html#about">About</a>
+          <a href="../index.html#work">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+          <a href="../index.html#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>Designed and built with curiosity, creativity, and code.</span>
+        <span>&copy; 2026 Sankar Vishal S. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="modal-overlay" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Image preview">
+    <div class="lightbox-box">
+      <div class="modal-bar">
+        <span class="mono-meta">FormFriend Screen Inspection</span>
+        <button type="button" class="btn btn-outline btn-sm" id="closeLightbox">Close</button>
+      </div>
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" id="lightboxImg">
+      </div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-top" id="backTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  </button>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

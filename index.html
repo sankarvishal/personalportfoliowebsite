@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sankar Vishal S — UI/UX Designer &amp; Frontend Developer</title>
+  <meta name="description" content="Portfolio of Sankar Vishal S, a UI/UX Designer and Frontend Developer focused on user-centered digital experiences, Figma, responsive design, and frontend development.">
+  <meta name="author" content="Sankar Vishal S">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sankar Vishal S — UI/UX Designer &amp; Frontend Developer">
+  <meta property="og:description" content="Portfolio of Sankar Vishal S, an aspiring product designer focused on user-centered digital experiences.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Navigation -->
+  <header class="nav" id="mainNav">
+    <div class="nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-dot"></span>
+        Sankar Vishal S
+      </a>
+      <nav class="links" aria-label="Primary Navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#frontend">Frontend</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary nav-cta-desktop">Let's Talk</a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" aria-label="Mobile Navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Projects</a>
+      <a href="#process">Process</a>
+      <a href="#frontend">Frontend</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-primary">Let's Talk</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">UI/UX Designer &amp; Frontend Developer</span>
+          <b><h1>SANKAR VISHAL S</h1></b>
+          <h2>Designing simple experiences for complex problems.</h2>
+          <p class="subtext">I'm Sankar Vishal S, a UI/UX Designer and Frontend Developer focused on creating user-centered interfaces, meaningful experiences, and responsive digital products.</p>
+          <div class="hero-ctas">
+            <a href="#work" class="btn btn-primary">View My Work</a>
+            <a href="assets/Sankar_Vishal_S_Resume.pdf" download="Sankar_Vishal_S_Resume.pdf" class="btn btn-outline download-resume-trigger" id="dlResumeHero">Download Resume</a>
+            <a href="#contact" class="btn btn-ghost">Let's Connect &rarr;</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <div class="hero-photo">
+            <img src="assets/images/portrait-hero.jpg" alt="Portrait of Sankar Vishal S in formal navy blazer" width="900" height="1080" fetchpriority="high">
+            <div class="hero-badge">
+              <span class="dot"></span>
+              Open to entry-level roles
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SELECTED WORK (Preview Cards) -->
+    <section id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Selected Work</span>
+          <h2>Two case studies, designed end to end.</h2>
+          <p>Both are Figma UI/UX concepts built to practice complete product thinking — from researching user frictions to structuring design systems and clickable prototypes.</p>
+        </div>
+
+        <div class="work-grid">
+          <!-- FormFriend Preview Card -->
+          <article class="work-card">
+            <div>
+              <span class="card-tag">UI/UX Case Study &middot; Mobile App &middot; Figma</span>
+              <h3>FormFriend</h3>
+              <p class="desc">Making complex forms easier to understand, complete, and submit through field-by-field guidance and document checks.</p>
+            </div>
+            <div class="meta-footer">
+              <span>Mobile &middot; 390&times;844</span>
+              <span>13 screens</span>
+              <a href="formfriend.html" class="cta-link">View Case Study &rarr;</a>
+            </div>
+          </article>
+
+          <!-- FixNear Preview Card -->
+          <article class="work-card">
+            <div>
+              <span class="card-tag">UI/UX Design &middot; Desktop Web &middot; Figma</span>
+              <h3>FixNear</h3>
+              <p class="desc">Discover, compare, book, and track local service professionals with transparent pricing and live status visibility.</p>
+            </div>
+            <div class="meta-footer">
+              <span>Desktop Web</span>
+              <span>8 screens</span>
+              <a href="fixnear.html" class="cta-link">View Case Study &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT (With Education) -->
+    <section id="about">
+      <div class="wrap about-grid">
+        <div class="about-photo">
+          <img src="assets/images/portrait-about.jpg" alt="Sankar Vishal S seated at his desk with Design Build Create Better backdrop" width="900" height="900" loading="lazy">
+        </div>
+        <div>
+          <span class="eyebrow">About</span>
+          <h2 style="font-size:clamp(26px, 3.4vw, 36px); margin-top:12px;">A fresher who thinks in flows, not just screens.</h2>
+          <div class="about-body" style="margin-top:22px;">
+            <p>I recently completed my MCA, and along the way I found myself drawn less to writing code in isolation and more to the human problem just before it — why a screen confuses someone, why an input feels intimidating, and why an everyday flow causes friction.</p>
+            <p>That curiosity pulled me deeply into UI/UX design and frontend development. Most of my work bridges both worlds: creating thoughtful user flows, wireframes, and interactive prototypes in Figma, and crafting semantic, responsive builds in HTML5, CSS3, and JavaScript.</p>
+            <p>I enjoy understanding user problems, simplifying complex interactions, and turning ideas into practical, accessible digital experiences that people can use with confidence.</p>
+          </div>
+
+          <div class="edu-list">
+            <div class="edu-item">
+              <div class="row">
+                <h4>Master of Computer Application (MCA)</h4>
+                <span class="meta-badge">June 2026</span>
+              </div>
+              <div class="details">K.L.N. College of Engineering &middot; CGPA 6.7/10</div>
+            </div>
+            <div class="edu-item">
+              <div class="row">
+                <h4>B.Com with Computer Application</h4>
+                <span class="meta-badge">April 2023</span>
+              </div>
+              <div class="details">S.B.K Arts and Science College &middot; CGPA 7/10</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. DESIGN PHILOSOPHY -->
+    <section id="philosophy">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">How I Think About Design</span>
+          <h2>Four questions I return to on every project.</h2>
+          <p>My foundational mindset for turning ambiguous challenges into straightforward digital products.</p>
+        </div>
+
+        <div class="phil-grid">
+          <div class="phil-item">
+            <span class="num">01</span>
+            <h4>Understand</h4>
+            <p>Start with the person's actual problem, not the feature request piled on top of it. Map the context before sketching a screen.</p>
+          </div>
+          <div class="phil-item">
+            <span class="num">02</span>
+            <h4>Simplify</h4>
+            <p>Remove unnecessary steps, cognitive weight, and extraneous decisions until only the essential path remains.</p>
+          </div>
+          <div class="phil-item">
+            <span class="num">03</span>
+            <h4>Guide</h4>
+            <p>Make the next right action obvious without demanding user manuals, confusing tooltips, or external assistance.</p>
+          </div>
+          <div class="phil-item">
+            <span class="num">04</span>
+            <h4>Improve</h4>
+            <p>Treat every first version as a working draft. Walk through it, test where it falters, and iterate for clarity.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SKILLS -->
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Skills</span>
+          <h2>What I design and build with.</h2>
+          <p>A focused toolkit combining user-centered design methodologies and clean frontend code fundamentals.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4>UX/UI Design</h4>
+            <div class="chip-row">
+              <span class="chip">Figma</span>
+              <span class="chip">User-Centered Design</span>
+              <span class="chip">Wireframing</span>
+              <span class="chip">Low/High-Fidelity Mockups</span>
+              <span class="chip">Interactive Prototypes</span>
+              <span class="chip">User Research</span>
+              <span class="chip">UX Principles</span>
+              <span class="chip">Visual Hierarchy</span>
+              <span class="chip">Typography</span>
+              <span class="chip">Color Theory</span>
+              <span class="chip">Design Systems</span>
+              <span class="chip">Auto Layout</span>
+              <span class="chip">Reusable Components</span>
+              <span class="chip">Interaction Design</span>
+              <span class="chip">Accessibility-Focused UX</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Frontend Development</h4>
+            <div class="chip-row">
+              <span class="chip">HTML5</span>
+              <span class="chip">CSS3</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">Semantic HTML</span>
+              <span class="chip">Responsive Web Design</span>
+              <span class="chip">Reusable UI Components</span>
+              <span class="chip">Clean/Maintainable Code</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Web Design</h4>
+            <div class="chip-row">
+              <span class="chip">Desktop/Tablet/Mobile Design</span>
+              <span class="chip">Landing Pages</span>
+              <span class="chip">Dashboard Interfaces</span>
+              <span class="chip">Accessibility</span>
+              <span class="chip">Usability</span>
+              <span class="chip">User-Centered Design</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Tools &amp; Soft Skills</h4>
+            <div class="chip-row">
+              <span class="chip">Figma</span>
+              <span class="chip">Visual Studio Code</span>
+              <span class="chip">Continuous Learning</span>
+              <span class="chip">Problem Solving</span>
+              <span class="chip">Creative Thinking</span>
+              <span class="chip">Communication</span>
+              <span class="chip">Team Collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. FEATURED CASE STUDY: FORMFRIEND -->
+    <section id="case-formfriend">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Case Study 01 &middot; Mobile App</span>
+          <h2>FormFriend</h2>
+          <p>Making complex forms easier to understand, complete, and submit.</p>
+        </div>
+
+        <div class="case-card">
+          <div class="case-card-header">
+            <div>
+              <span class="eyebrow">Figma UI/UX Concept</span>
+              <h3>FormFriend Mobile App</h3>
+              <p class="tagline">An accessibility-first mobile concept that breaks daunting multi-page official forms into manageable, field-by-field guided explanations.</p>
+            </div>
+            <a href="formfriend.html" class="btn btn-primary">Read Full Case Study &rarr;</a>
+          </div>
+
+          <div class="case-meta-bar">
+            <div>
+              <div class="label">Project Type</div>
+              <div class="val">UX/UI Case Study</div>
+            </div>
+            <div>
+              <div class="label">Platform</div>
+              <div class="val">Mobile App (390&times;844)</div>
+            </div>
+            <div>
+              <div class="label">Role</div>
+              <div class="val">UI/UX Designer</div>
+            </div>
+            <div>
+              <div class="label">Tool</div>
+              <div class="val">Figma</div>
+            </div>
+          </div>
+
+          <div class="case-body-cols">
+            <div class="case-info-block">
+              <h5>The Problem</h5>
+              <p>People struggle to complete official forms (at government offices, hospitals, banks, and schools) due to dense bureaucratic terminology, language barriers, unclear requirements, missing document surprises, and stressful reliance on third-party help.</p>
+              
+              <h5 style="margin-top:24px;">The Goal</h5>
+              <p>Make form completion simple, guided, accessible, predictable, and confidence-building — transforming an intimidating task into step-by-step progress.</p>
+              
+              <h5 style="margin-top:24px;">Core Flow</h5>
+              <div class="flow-strip">
+                <span class="flow-step">Scan</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Understand</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Complete</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Check Documents</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Review</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Submit</span>
+              </div>
+            </div>
+
+            <div class="case-info-block">
+              <h5>Key Features (USP)</h5>
+              <ul>
+                <li><strong>Field-by-Field Explanations (Core USP):</strong> Breaks down complex labels (like "Gross Annual Income") into plain language before entry.</li>
+                <li><strong>Form Scanning:</strong> Instant OCR camera framing to recognize physical paper forms.</li>
+                <li><strong>Bilingual Guidance:</strong> Quick Tamil / English toggle for non-native English speakers.</li>
+                <li><strong>Voice Guide &amp; Progress Bar:</strong> Audio playback option and predictable step counters.</li>
+                <li><strong>Document Checklist &amp; Review:</strong> Pre-submission validation to prevent office rejection.</li>
+              </ul>
+
+              <h5 style="margin-top:24px;">Accessibility Highlights</h5>
+              <p>Cognitive step chunking, WCAG AAA text contrast, 48px touch targets, bilingual audio assistance, and persistent progress tracking.</p>
+            </div>
+          </div>
+
+          <!-- Screen Gallery (5 real screens) -->
+          <div class="gallery-wrapper">
+            <div class="gallery-wrapper-head">
+              <span class="mono-meta">Designed Screens (Click to inspect full size in lightbox)</span>
+              <span class="mono-meta" style="color:var(--accent);">5 high-fidelity screens &bull; 8 supporting flows</span>
+            </div>
+            <div class="gallery-scroll" role="region" aria-label="FormFriend Screen Gallery">
+              <figure data-lightbox="formfriend">
+                <img src="assets/images/formfriend-splash.png" alt="FormFriend splash screen with logo and tagline" width="390" height="544" loading="lazy">
+                <figcaption>01 &middot; Splash<small>Brand identity &amp; warm welcome</small></figcaption>
+              </figure>
+              <figure data-lightbox="formfriend">
+                <img src="assets/images/formfriend-scan.png" alt="FormFriend scan form screen with camera viewfinder frame" width="390" height="544" loading="lazy">
+                <figcaption>02 &middot; Scan Form<small>Camera capture &amp; boundary detection</small></figcaption>
+              </figure>
+              <figure data-lightbox="formfriend">
+                <img src="assets/images/formfriend-field-explanation.png" alt="FormFriend field explanation screen explaining Annual Income simply" width="390" height="544" loading="lazy">
+                <figcaption>03 &middot; Field Explanation<small>Annual Income breakdown &amp; voice</small></figcaption>
+              </figure>
+              <figure data-lightbox="formfriend">
+                <img src="assets/images/formfriend-checklist.png" alt="FormFriend document checklist screen titled Before You Go" width="390" height="544" loading="lazy">
+                <figcaption>04 &middot; Document Checklist<small>&quot;Before You Go&quot; required papers</small></figcaption>
+              </figure>
+              <figure data-lightbox="formfriend">
+                <img src="assets/images/formfriend-review.png" alt="FormFriend review before submit screen with verify card" width="390" height="544" loading="lazy">
+                <figcaption>05 &middot; Review<small>Pre-submission confidence check</small></figcaption>
+              </figure>
+            </div>
+
+            <!-- 8 Remaining Screens as Chips -->
+            <div class="secondary-screens">
+              <span class="secondary-screens-label">Supporting Screens in Flow:</span>
+              <span class="screen-pill">Welcome</span>
+              <span class="screen-pill">Language Selection</span>
+              <span class="screen-pill">Home</span>
+              <span class="screen-pill">Form Preview</span>
+              <span class="screen-pill">Form Progress</span>
+              <span class="screen-pill">Saved Forms</span>
+              <span class="screen-pill">Help &amp; Support</span>
+              <span class="screen-pill">Form Submitted</span>
+            </div>
+          </div>
+
+          <!-- Prototype & Design System Details -->
+          <div class="case-body-cols" style="margin-top:28px; padding-top:24px; border-top:1px solid var(--line);">
+            <div class="case-info-block">
+              <h5>Prototype Mechanics</h5>
+              <p>Built in Figma using <strong>On Click</strong>, <strong>After Delay</strong> (1500ms Splash Dissolve), <strong>Navigate To</strong>, and <strong>Smart Animate</strong> (300ms ease-out) to mimic real native mobile feel.</p>
+            </div>
+            <div class="case-info-block">
+              <h5>Design System Palette</h5>
+              <div class="swatches">
+                <div class="swatch"><span class="swatch-color" style="background:#2563EB;"></span>Primary #2563EB</div>
+                <div class="swatch"><span class="swatch-color" style="background:#1D4ED8;"></span>Dark Blue #1D4ED8</div>
+                <div class="swatch"><span class="swatch-color" style="background:#F8FAFC;"></span>Bg #F8FAFC</div>
+                <div class="swatch"><span class="swatch-color" style="background:#0F172A;"></span>Heading #0F172A</div>
+                <div class="swatch"><span class="swatch-color" style="background:#334155;"></span>Body #334155</div>
+                <div class="swatch"><span class="swatch-color" style="background:#DBEAFE;"></span>Surface #DBEAFE</div>
+                <div class="swatch">Font: Inter</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. FEATURED PROJECT: FIXNEAR -->
+    <section id="case-fixnear">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Case Study 02 &middot; Desktop Web</span>
+          <h2>FixNear</h2>
+          <p>Discover, compare, book, and track local service professionals.</p>
+        </div>
+
+        <div class="case-card">
+          <div class="case-card-header">
+            <div>
+              <span class="eyebrow">Figma UI/UX Concept + Interactive Prototype</span>
+              <h3>FixNear Desktop Web</h3>
+              <p class="tagline">A trustworthy service discovery platform resolving pricing uncertainty and availability gaps for everyday home maintenance.</p>
+            </div>
+            <a href="fixnear.html" class="btn btn-primary">Read Full Case Study &rarr;</a>
+          </div>
+
+          <div class="case-meta-bar">
+            <div>
+              <div class="label">Project Type</div>
+              <div class="val">UI/UX Design + Prototype</div>
+            </div>
+            <div>
+              <div class="label">Platform</div>
+              <div class="val">Desktop Web</div>
+            </div>
+            <div>
+              <div class="label">Role</div>
+              <div class="val">UI/UX Designer</div>
+            </div>
+            <div>
+              <div class="label">Tool</div>
+              <div class="val">Figma</div>
+            </div>
+          </div>
+
+          <div class="case-body-cols">
+            <div class="case-info-block">
+              <h5>The Problem</h5>
+              <p>Homeowners and tenants struggle to find and compare reliable local service professionals (plumbers, electricians, cleaners, appliance technicians). Key frictions include hidden pricing, uncertain arrival times, and zero tracking after making a phone call.</p>
+              
+              <h5 style="margin-top:24px;">Core Flow</h5>
+              <div class="flow-strip">
+                <span class="flow-step">Discover</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Compare</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Select</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Book</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Confirm</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Track</span><span class="flow-sep">&rarr;</span>
+                <span class="flow-step">Review</span>
+              </div>
+            </div>
+
+            <div class="case-info-block">
+              <h5>Information Priority Architecture</h5>
+              <p>To eliminate booking friction, cards are organized strictly by trust signals: <strong>Provider &rarr; Rating &rarr; Service &rarr; Distance &rarr; Availability &rarr; Pricing &rarr; Booking CTA</strong>.</p>
+              
+              <h5 style="margin-top:24px;">Information Architecture (IA)</h5>
+              <p><strong>Primary Nav:</strong> Home, Services, How It Works, About, Login, Sign Up.<br>
+              <strong>Core Modules:</strong> Service Category &bull; Provider Listing &bull; Provider Profile &bull; Booking &bull; Booking Confirmation &bull; Live Tracking &bull; Rating &amp; Review.</p>
+            </div>
+          </div>
+
+          <!-- Screen Gallery (4 real screens) -->
+          <div class="gallery-wrapper">
+            <div class="gallery-wrapper-head">
+              <span class="mono-meta">Designed Screens (Click to inspect in lightbox)</span>
+              <span class="mono-meta" style="color:var(--accent);">4 high-fidelity desktop screens &bull; 4 supporting flows</span>
+            </div>
+            <div class="gallery-scroll desktop-screens" role="region" aria-label="FixNear Screen Gallery">
+              <figure data-lightbox="fixnear">
+                <img src="assets/images/fixnear-home.png" alt="FixNear home screen with popular services, search bar, and concept testimonials" width="900" height="460" loading="lazy">
+                <figcaption>01 &middot; Home<small>Category exploration &amp; search</small></figcaption>
+              </figure>
+              <figure data-lightbox="fixnear">
+                <img src="assets/images/fixnear-providers.png" alt="FixNear available service professionals listing screen with comparison filters" width="900" height="460" loading="lazy">
+                <figcaption>02 &middot; Provider Listing<small>Comparison filters &amp; transparent rates</small></figcaption>
+              </figure>
+              <figure data-lightbox="fixnear">
+                <img src="assets/images/fixnear-booking.png" alt="FixNear book a service screen with schedule options and booking summary card" width="900" height="460" loading="lazy">
+                <figcaption>03 &middot; Booking<small>Date, time slot, &amp; price summary</small></figcaption>
+              </figure>
+              <figure data-lightbox="fixnear">
+                <img src="assets/images/fixnear-tracking.png" alt="FixNear live tracking screen showing professional on the way with estimated arrival" width="900" height="460" loading="lazy">
+                <figcaption>04 &middot; Live Tracking<small>Prototype status &amp; provider ETA</small></figcaption>
+              </figure>
+            </div>
+
+            <!-- 4 Remaining Screens as Chips -->
+            <div class="secondary-screens">
+              <span class="secondary-screens-label">Supporting Screens in Flow:</span>
+              <span class="screen-pill">Services</span>
+              <span class="screen-pill">Provider Profile</span>
+              <span class="screen-pill">Booking Confirmation</span>
+              <span class="screen-pill">Rating &amp; Review</span>
+            </div>
+          </div>
+
+          <!-- Honest Limitations Box -->
+          <div class="limitations-box">
+            <h5>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+              Limitations — Stated Honestly
+            </h5>
+            <p>FixNear is a design concept and interactive Figma prototype, not a production application. There is no real backend database, GPS tracking pipeline, payment gateway, authentication server, or live booking engine. All provider names, ratings, pricing, and home screen customer quotes are design placeholders used solely to test and demonstrate the user experience.</p>
+          </div>
+
+          <!-- Future Integration -->
+          <div style="margin-top:20px; font-size:14px; color:var(--ink-soft);">
+            <strong>Future Integrations (Concept Only):</strong> Real-time provider availability feeds, actual GPS geolocation API, backend authentication, secure payments, verified user reviews, booking history, and push notifications.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. DESIGN PROCESS -->
+    <section id="process">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Design Process</span>
+          <h2>How each project moves from question to prototype.</h2>
+          <p>An intentional, user-centered 8-stage sequence designed to validate structure and clarity before polishing surface styling.</p>
+        </div>
+
+        <div class="process-track" role="region" aria-label="8-stage design process">
+          <div class="process-step">
+            <span class="num">01</span>
+            <h4>Discover</h4>
+            <p>Understand the problem space, observe user friction, and map context.</p>
+          </div>
+          <div class="process-step">
+            <span class="num">02</span>
+            <h4>Define</h4>
+            <p>Frame the core UX goal and define what clarity and success mean.</p>
+          </div>
+          <div class="process-step">
+            <span class="num">03</span>
+            <h4>Ideate</h4>
+            <p>Explore candidate user journeys and screen sequences before visuals.</p>
+          </div>
+          <div class="process-step">
+            <span class="num">04</span>
+            <h4>Wireframe</h4>
+            <p>Establish structural hierarchy, layouts, and affordances in low fidelity.</p>
+          </div>
+          <div class="process-step">
+            <span class="num">05</span>
+            <h4>Design</h4>
+            <p>Apply the design system, typography, contrast, and component states.</p>
+          </div>
+          <div class="process-step">
+            <span class="num">06</span>
+            <h4>Prototype</h4>
+            <p>Link screens with Figma transitions (Smart Animate, overlays, delays).</p>
+          </div>
+          <div class="process-step">
+            <span class="num">07</span>
+            <h4>Test</h4>
+            <p>Run cognitive walkthroughs and observe where user expectations stall.</p>
+          </div>
+          <div class="process-step">
+            <span class="num">08</span>
+            <h4>Improve</h4>
+            <p>Refine copy, touch targets, and visual feedback based on walkthroughs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. DESIGN SYSTEM SHOWCASE -->
+    <section id="design-system">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Design System Showcase</span>
+          <h2>The shared visual language behind both projects.</h2>
+          <p>A restrained, accessible color palette and systematic typography scale engineered in Figma for visual hierarchy and clarity.</p>
+        </div>
+
+        <div class="ds-grid">
+          <div class="ds-colors">
+            <div class="ds-color" style="background:#2563EB; color:#FFFFFF;">
+              <span class="lbl">Primary</span>
+              <span class="hex">#2563EB</span>
+            </div>
+            <div class="ds-color" style="background:#1D4ED8; color:#FFFFFF;">
+              <span class="lbl">Dark Blue</span>
+              <span class="hex">#1D4ED8</span>
+            </div>
+            <div class="ds-color" style="background:#0F172A; color:#FFFFFF;">
+              <span class="lbl">Heading</span>
+              <span class="hex">#0F172A</span>
+            </div>
+            <div class="ds-color" style="background:#F8FAFC; color:#0F172A; border-color:#E2E8F0;">
+              <span class="lbl">Background</span>
+              <span class="hex">#F8FAFC</span>
+            </div>
+            <div class="ds-color" style="background:#DBEAFE; color:#1D4ED8; border-color:#BFDBFE;">
+              <span class="lbl">Blue Surface</span>
+              <span class="hex">#DBEAFE</span>
+            </div>
+            <div class="ds-color" style="background:#16A34A; color:#FFFFFF;">
+              <span class="lbl">Success</span>
+              <span class="hex">#16A34A</span>
+            </div>
+          </div>
+
+          <div class="type-scale">
+            <div class="type-scale-row">
+              <span class="tsz">32px &middot; Bold</span>
+              <span style="font-family:var(--font-display); font-size:22px; font-weight:700;">Page Heading</span>
+            </div>
+            <div class="type-scale-row">
+              <span class="tsz">24px &middot; SemiBold</span>
+              <span style="font-family:var(--font-display); font-size:18px; font-weight:600;">Section Heading</span>
+            </div>
+            <div class="type-scale-row">
+              <span class="tsz">20px &middot; SemiBold</span>
+              <span style="font-size:16px; font-weight:600;">Card &amp; Component Title</span>
+            </div>
+            <div class="type-scale-row">
+              <span class="tsz">16px &middot; Regular</span>
+              <span style="font-size:15px;">Body Content &amp; Descriptions</span>
+            </div>
+            <div class="type-scale-row">
+              <span class="tsz">14px &middot; Regular</span>
+              <span style="font-size:13.5px; color:var(--ink-soft);">Supporting Metadata &amp; Buttons</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. FRONTEND DEVELOPMENT SECTION -->
+    <section id="frontend">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Frontend Development</span>
+          <h2>From Design to Code.</h2>
+          <p>I build with semantic HTML5, modern CSS3, and vanilla JavaScript. Focus areas include fluid responsive layouts, reusable component architectures, keyboard accessibility, and clean structure. Not every design shown above has been fully coded into production; this section illustrates how I translate design thinking into clean code.</p>
+        </div>
+
+        <div class="fe-flow">
+          <div class="fe-node">Figma Design</div>
+          <span class="fe-arrow">&rarr;</span>
+          <div class="fe-node">HTML5 / CSS3 / JavaScript</div>
+          <span class="fe-arrow">&rarr;</span>
+          <div class="fe-node">Responsive Accessible Interface</div>
+        </div>
+
+        <div class="code-tabs">
+          <button class="code-tab active" data-tab="html">HTML5 (Semantic Card)</button>
+          <button class="code-tab" data-tab="css">CSS3 (Responsive Layout)</button>
+          <button class="code-tab" data-tab="js">JavaScript (Tab Interaction)</button>
+        </div>
+
+        <div class="code-panel active" id="tab-html"><pre>&lt;!-- Semantic, accessible service provider card --&gt;
+&lt;article class="provider-card" aria-labelledby="provider-101"&gt;
+  &lt;div class="provider-header"&gt;
+    &lt;h3 id="provider-101" class="provider-name"&gt;Ramesh Kumar&lt;/h3&gt;
+    &lt;span class="badge badge--verified" aria-label="Verified Professional"&gt;Verified&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;p class="provider-service"&gt;Master Plumber &middot; Pipe Fitting &amp; Repair&lt;/p&gt;
+  &lt;div class="provider-meta"&gt;
+    &lt;span class="rating" aria-label="4.9 out of 5 stars"&gt;&starf; 4.9&lt;/span&gt;
+    &lt;span class="distance"&gt;2.4 km away&lt;/span&gt;
+    &lt;span class="price"&gt;&dollar;25 / hour&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;button type="button" class="btn btn-primary" aria-haspopup="dialog"&gt;Book Service&lt;/button&gt;
+&lt;/article&gt;</pre></div>
+
+        <div class="code-panel" id="tab-css"><pre>/* Fluid responsive card grid using CSS Grid and clamp() */
+.provider-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: clamp(16px, 3vw, 28px);
+}
+
+.provider-card {
+  background-color: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: clamp(18px, 2.5vw, 24px);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.provider-card:focus-within,
+.provider-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}</pre></div>
+
+        <div class="code-panel" id="tab-js"><pre>// Lightweight, zero-dependency accessible tab controller
+function initTabs(tabListSelector) {
+  const tabs = document.querySelectorAll(`${tabListSelector} [role="tab"]`);
+  
+  tabs.forEach(tab =&gt; {
+    tab.addEventListener('click', (e) =&gt; {
+      const targetPanelId = tab.getAttribute('aria-controls');
+      
+      // Update tab selection states
+      tabs.forEach(t =&gt; {
+        t.setAttribute('aria-selected', t === tab ? 'true' : 'false');
+        t.tabIndex = t === tab ? 0 : -1;
+      });
+
+      // Show targeted panel
+      document.querySelectorAll('[role="tabpanel"]').forEach(panel =&gt; {
+        panel.hidden = panel.id !== targetPanelId;
+      });
+    });
+  });
+}</pre></div>
+      </div>
+    </section>
+
+    <!-- 11. UX PRINCIPLES -->
+    <section id="principles">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">UX Principles</span>
+          <h2>What I check for before calling a screen done.</h2>
+          <p>Four pragmatic heuristics that govern every layout, button placement, and microcopy decision.</p>
+        </div>
+
+        <div class="principle-list">
+          <div class="principle">
+            <span class="pnum">01</span>
+            <div>
+              <h4>Clarity over cleverness</h4>
+              <p>If a user has to pause and decode an unfamiliar icon or ambiguous label, the interface has failed. Explicit text and conventional interactions build immediate trust.</p>
+            </div>
+          </div>
+          <div class="principle">
+            <span class="pnum">02</span>
+            <div>
+              <h4>Consistency builds trust</h4>
+              <p>Components must behave identically across every screen they appear on. Predictable colors, padding, and font scales allow users to focus on their task, not the interface.</p>
+            </div>
+          </div>
+          <div class="principle">
+            <span class="pnum">03</span>
+            <div>
+              <h4>Feedback for every action</h4>
+              <p>Users should never be left wondering if an input registered. Clear visual state changes, progress meters, and confirmation screens confirm that the system is listening.</p>
+            </div>
+          </div>
+          <div class="principle">
+            <span class="pnum">04</span>
+            <div>
+              <h4>Accessible by default</h4>
+              <p>Contrast ratios, large touch targets, logical document heading order, and screen-reader semantics are structural requirements built into the earliest wireframes, not retrofitted afterthoughts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. CERTIFICATIONS & 13. LEARNING & GROWTH -->
+    <section id="certifications">
+      <div class="wrap split-2">
+        <div>
+          <span class="eyebrow">Certifications</span>
+          <h2 style="font-size:clamp(24px, 3vw, 32px); margin-top:12px;">Focused learning, applied.</h2>
+          <div style="margin-top:24px;">
+            <div class="cert-item">
+              <h4>MERN Stack Development Certification</h4>
+              <p>CodeTantra Tech Solutions Pvt. Ltd., Hyderabad</p>
+            </div>
+            <div class="cert-item">
+              <h4>UI &amp; UX Designer Webinar Certification</h4>
+              <p>Brand Monk Academy, Coimbatore</p>
+            </div>
+          </div>
+          <p style="margin-top:22px; font-size:14px; color:var(--ink-soft);">
+            <strong>Languages:</strong> Tamil (Native), English (Professional)
+          </p>
+        </div>
+
+        <div id="learning">
+          <span class="eyebrow">Learning &amp; Growth</span>
+          <h2 style="font-size:clamp(24px, 3vw, 32px); margin-top:12px;">Still building the fundamentals, on purpose.</h2>
+          <p style="margin-top:20px; color:var(--ink-soft); font-size:16px; line-height:1.7;">
+            I am early in my career as a fresher, and I believe in being transparent about that. Rather than claiming senior-level experience, I focus on rigorous fundamentals: conducting thorough UX problem decomposition, constructing disciplined design systems in Figma, and writing clean, accessible HTML/CSS/JavaScript.
+          </p>
+          <p style="margin-top:14px; color:var(--ink-soft); font-size:16px; line-height:1.7;">
+            Working end-to-end through FormFriend and FixNear has taught me that great design is not about decoration — it is about clarifying user intent, reducing friction, and translating concepts into code with precision.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14. RESUME SECTION -->
+    <section id="resume">
+      <div class="wrap resume-band">
+        <span class="eyebrow">Resume</span>
+        <h2>Ready to explore my experience?</h2>
+        <p>View my resume to learn more about my education, skills, certifications, and design/development interests.</p>
+        <div class="hero-ctas">
+          <button type="button" class="btn btn-primary view-resume-trigger" id="viewResumeBtn">View Resume</button>
+          <a href="assets/Sankar_Vishal_S_Resume.pdf" download="Sankar_Vishal_S_Resume.pdf" class="btn btn-outline download-resume-trigger" id="dlResumeBtn">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15. CONTACT SECTION -->
+    <section id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <span class="eyebrow">Contact</span>
+          <h2 style="font-size:clamp(28px, 3.6vw, 40px); margin-top:12px;">Let's create something meaningful.</h2>
+          <p style="margin-top:18px; color:var(--ink-soft); font-size:16px; line-height:1.65;">
+            I'm open to entry-level opportunities, internships, collaborations, and conversations around UI/UX Design, Product Design, and Frontend Development.
+          </p>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <span class="label">Email</span>
+              <a href="mailto:sankar82209@gmail.com">sankar82209@gmail.com</a>
+            </div>
+            <div class="contact-info-item">
+              <span class="label">Phone</span>
+              <a href="tel:+918220901132">+91 82209 01132</a>
+            </div>
+            <div class="contact-info-item">
+              <span class="label">Location</span>
+              <span>Aruppukottai, Virudhunagar, Tamil Nadu, India</span>
+            </div>
+            <div class="contact-info-item">
+              <span class="label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/sankar-vishal-3a69b733a" target="_blank" rel="noopener noreferrer">linkedin.com/in/sankar-vishal-3a69b733a &nearr;</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" placeholder="Your name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" placeholder="you@example.com" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" placeholder="What would you like to talk about?" required></textarea>
+          </div>
+          <p class="form-note">
+            Opens your email app with this message pre-filled — sent directly to Sankar Vishal.
+          </p>
+          <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 16. FOOTER -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <div class="brand">Sankar Vishal S</div>
+          <p style="color:var(--ink-soft); font-size:14px; margin-top:8px;">UI/UX Designer &amp; Frontend Developer</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer Links">
+          <a href="#top">Home</a>
+          <a href="#about">About</a>
+          <a href="#work">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+          <a href="https://www.linkedin.com/in/sankar-vishal-3a69b733a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>Designed and built with curiosity, creativity, and code.</span>
+        <span>&copy; 2026 Sankar Vishal S. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- RESUME MODAL -->
+  <div class="modal-overlay" id="resumeModal" role="dialog" aria-modal="true" aria-label="Resume of Sankar Vishal S">
+    <div class="resume-modal-box">
+      <div class="modal-bar">
+        <strong>Sankar Vishal S — Resume</strong>
+        <div style="display:flex; gap:10px;">
+          <a href="assets/Sankar_Vishal_S_Resume.pdf" download="Sankar_Vishal_S_Resume.pdf" class="btn btn-primary btn-sm download-resume-trigger" id="dlResumeModal">Download PDF</a>
+          <button type="button" class="btn btn-outline btn-sm" id="closeResume" aria-label="Close resume modal">Close</button>
+        </div>
+      </div>
+      <div style="overflow-y:auto; max-height:calc(85vh - 60px);">
+        <img src="assets/images/resume-preview.png" alt="Resume of Sankar Vishal S showing summary, education at K.L.N. College of Engineering with CGPA 6.7/10, skills, certifications, and projects" width="1200" height="1700">
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="modal-overlay" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Image preview">
+    <div class="lightbox-box">
+      <div class="modal-bar">
+        <span class="mono-meta">Screen Inspection</span>
+        <button type="button" class="btn btn-outline btn-sm" id="closeLightbox" aria-label="Close image lightbox">Close</button>
+      </div>
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" id="lightboxImg">
+      </div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-top" id="backTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  </button>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
